@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About Us</a></li>
+			<li>Log in</li>
+
+		</ul>
+	</header>
+
+	<!-- just a comment  -->
+	<form method="GET">
+		First Name:<input type="text" name="firstname" required><br>
+		Last Name:<input type="text" name="lastname" required><br>
+		Email:<input type="Email" name="email" required><br>
+		Password:<input type="Password" minlength="5" name="password" required><br>
+		Birthday:<input type="date" name="date" required><br>
+        Gender:<br>
+        <input type="radio" name="Gender" value="male">Male<br>
+        <input type="radio" name="Gender" value="female">Female<br>
+        Pets:<br>
+        <input type="checkbox" name="cats">Cats<br>
+        <input type="checkbox" name="dogs">Dogs<br>
+        Cars:
+        <select name="cars">
+        	<option value="mercedes">Mercedes</option>
+        	<option value="bmw">BMW</option>
+        </select><br>
+		<input type="submit" value="Register!">
+		<input type="reset"><br>
+	</form>
+
+</body>
+</html>
